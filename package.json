@@ -1,7 +1,7 @@
 {
-  "name": "first-react-component-rorn",
+  "name": "rorn-react-component",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple react component",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -25,5 +25,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "@Sarorn123:registry": "https://npm.pkg.github.com"
+  }
 }
